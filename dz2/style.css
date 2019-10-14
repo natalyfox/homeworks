@@ -1,0 +1,12 @@
+.leftfoto{
+    float:left;
+    margin: 4px 10px 2px 0px;
+    }
+    .rightfoto{
+        float:right;
+        margin: 25px 25px 25px 25px;
+        }
+        .left2foto{
+            float:left;
+            margin: 25px 25px 25px 25px;
+            }

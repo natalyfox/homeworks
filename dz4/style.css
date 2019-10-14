@@ -1,0 +1,45 @@
+.menu-main {
+    text-decoration: none;
+    list-style: none;
+    margin: 25px;
+    padding: 5px;
+    text-align: center;
+    background: #d6e7ec;    
+    font-size: 25px;
+  }
+.menu-main li {display: inline-block;}
+ul li a:hover{
+    background: white; 
+}
+a{
+    color: black;
+}
+#red {
+    background: red;
+}
+#orange {
+    background: orange;
+}
+#yellow {
+    background: yellow;
+}
+#green {
+    background: green;
+}
+#sky {
+    background:#03a5fc;
+    }
+#blue {
+    background: blue;
+}
+#violet {
+    background:#a06bd6;
+}
+.menu-vertical {
+    list-style: none;
+    margin: 25px;
+    padding: 5px;
+    text-align: left;
+    background: #d6e7ec;    
+    font-size: 25px;
+  }
