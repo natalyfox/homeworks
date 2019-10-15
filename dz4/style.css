@@ -1,5 +1,5 @@
 .menu-main {
-    text-decoration: none;
+    
     list-style: none;
     margin: 25px;
     padding: 5px;
@@ -13,8 +13,9 @@ ul li a:hover{
 }
 a{
     color: black;
+    text-decoration: none;
 }
-#red {
+.red {
     background: red;
 }
 #orange {

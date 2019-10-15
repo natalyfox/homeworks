@@ -1,4 +1,39 @@
+.october{
+    margin:auto;
+}
+h1{
+    text-align: center;
+    color: black;
+}
 div{
     float:left;
-    margin:20px;
+    padding:20px;
+    font-weight: bolder;
+    text-align: center;
+         }
+.newweek{
+    clear:both;
 }
+.days{
+    font-size:18px;
+    
+}
+.data{
+      color:white;
+      padding:20px;
+      font-size:22px;
+}
+.rest{
+   color:blue;
+  }
+  
+.ramka{   
+    width: 500px; 
+    height: 500px;
+    background-image:url('1.jpg'); 
+    border: 10px solid #000; 
+    border-radius: 10px; 
+          }
+.today{
+    background-color: blueviolet;
+}    
