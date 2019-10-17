@@ -1,0 +1,68 @@
+table{
+    border: 1px solid black;
+    width:100%;
+    border-collapse: collapse;
+    margin:auto;
+    table-layout: fixed;
+   
+}
+td{
+    border: 3px solid black;
+}
+th{
+    text-align: center;
+}
+.verhriad{
+    text-align:center;
+    width:30%;
+    padding-bottom:10px;
+    vertical-align:top;
+}
+.lefttop{
+    width:60%;
+}
+.topleft{
+    text-align: left;
+    vertical-align: top;
+    padding-left:10px;    
+    border-right: 0px;
+    }
+.righttext{
+    text-align: right;
+    vertical-align: top;
+    padding-right:10px;
+}
+caption{
+    font-size:10px;
+}
+div{
+    border: 1px solid black;
+    padding:3px;
+    
+}
+.toptotal{
+    vertical-align: bottom;
+    padding-bottom:10px;
+}
+.pyst{
+    border-left: 0px;
+    border-right: 0px;
+}
+.noboder{
+    border-left: 0px;
+}
+.topleft1{
+    border-right: 0px;
+}
+.topleft2{
+    border-left: 0px;
+}
+.topleft3{
+    border-left: 0px;
+}
+.topleft4{
+    border-left: 0px;
+}
+.topleft5{
+    border-left: 0px;
+}
