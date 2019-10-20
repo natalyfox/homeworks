@@ -13,6 +13,7 @@ img{
     z-index: 2;  
     top: 15px;
     right: 15px;
+    opacity: 0.8;
 
 }
 .star{
