@@ -6,7 +6,7 @@
 img{
     display:block;
 }
-   
+
 .angel{
     position: relative;
     float: right;
@@ -30,9 +30,7 @@ img{
     right: 50%;
     z-index: 2;
     opacity: 0.5;
-
-    
-    
+      
 }
 .rusalka{
     position: fixed;
@@ -55,7 +53,6 @@ img{
     bottom: 38px;
     right: 60px;
 }
-
 
 .minion4{
     position: fixed;
