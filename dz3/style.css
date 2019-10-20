@@ -5,11 +5,12 @@ h1{
     text-align: center;
     color: black;
 }
-div{
+.data div, .days div{
     float:left;
-    padding:20px;
+    padding:20px 0;
     font-weight: bolder;
     text-align: center;
+    width: 70px;
          }
 .newweek{
     clear:both;
@@ -20,8 +21,8 @@ div{
 }
 .data{
       color:white;
-      padding:20px;
       font-size:22px;
+      float:left;
 }
 .rest{
    color:blue;
