@@ -7,6 +7,9 @@
     max-width: 1024px;
     margin: 0 auto;
 }
+.clear{
+    clear:both;
+}
 #header{
     height:100px;
     background:#051a2d;    
@@ -112,7 +115,7 @@
 .main-content{
     padding: 25px;
     text-align: justify;
-    width:100% - 300px;
+    width: calc(100% - 300px);
     height: auto;
     background:#dff6fc;
     float:left;      
@@ -139,7 +142,7 @@
 }
 
 #footer{    
-    height:100px;
+    min-height:150px;
     background:#051a2d;
 }
 .footer-logo,
@@ -156,8 +159,11 @@
 .footer-menu li{
     display: inline-block;
     margin-right:40px;
-    padding-top: 25px;
+    padding-top: 50px;
         }
+.footer-logo{
+    padding-top: 25px;
+}
 .footer-menu li{
     display: inline-block;            
         }    
