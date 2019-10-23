@@ -1,7 +1,7 @@
 .fon{
     position: relative;
     background: url('img/A-voobrazenie.jpg') no-repeat center fixed;
-    background-size: cover;
+    background-size: 1300px auto;
 }
 img{
     display:block;
