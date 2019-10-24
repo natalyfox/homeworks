@@ -1,40 +1,52 @@
-.october{
-    margin:auto;
+.clear{
+    clear: both;
 }
-h1{
+#calendar{
+    background: url(img/1.jpg) no-repeat;
+    border: rgb(230, 140, 6) 10px solid;
+    width: 700px;
+    background-size: 100% 100%;
+}
+.calendar {
+    position: fixed; 
+    top: 25px;
+    left: 20%;         
+    }    
+
+.calendar-title{
     text-align: center;
-    color: black;
-}
-.data div, .days div{
-    float:left;
-    padding:20px 0;
-    font-weight: bolder;
-    text-align: center;
-    width: 70px;
-         }
-.newweek{
-    clear:both;
-}
-.days{
-    font-size:18px;
     
 }
-.data{
-      color:white;
-      font-size:22px;
-      float:left;
+
+.week-name{
+    float: left;
+    width: 100px;
+    text-align: center;
+    text-decoration-color;:black;
+    font-size: 30px;
+    margin: 0 auto;
+    padding-top:15px;
+    text-transform:uppercase;
+   
 }
-.rest{
-   color:blue;
-  }
-  
-.ramka{   
-    width: 500px; 
-    height: 500px;
-    background-image:url('1.jpg'); 
-    border: 10px solid #000; 
-    border-radius: 10px; 
-          }
-.today{
-    background-color: blueviolet;
-}    
+.rest-day{
+    color:red;
+}
+
+
+.month-data .day{
+    float: left;
+    width: 100px;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px 0;
+    
+}
+
+.month-data .day.today{
+    color: blue;
+    
+}
+.day:hover{
+    background-color: royalblue;
+}
