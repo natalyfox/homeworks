@@ -119,6 +119,7 @@
     height: auto;
     background:#dff6fc;
     float:left;      
+    box-sizing: border-box;
 }
 .img-left{
     float: left;

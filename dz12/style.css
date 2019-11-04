@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+.wrapper{
+    max-width: 1020px;
+    margin: 0 auto;
+    
+}
+#header{
+    display:flex;
+    height: 202px;
+    justify-content: space-between; 
+    align-items: center;
+    
+}
+img{
+    display: block;
+    max-width: 100%;    
+}
+
+body{
+    background-color:#3e3b4a;
+}
+
+.icon-burger{
+    display: inline-flex;
+    width: 22px;
+    height: 20px;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-right: 10px;
+    
+}
+.icon-burger span{
+    background: #898691;
+    height: 3px;
+   
+}
+.search-link,
+.menu-link,
+.networks
+{
+    display: inline-flex;
+    align-items: center;
+    
+       
+}
+.header-search a,
+.menu-link {
+    color: #898691; 
+    font-size: 12px; 
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    
+}
+.header-search a,
+.menu-link, 
+.text-logo,
+.footer-text{
+    font-family: 'Open Sans', bold;
+}
+
+
+.header-search{
+    padding-right:32px;      
+    background: url(img/search-i.png) no-repeat right center; 
+    min-height: 22px;
+    
+    }
+.text-logo{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+   
+}
+.dmt{
+    color:#ffffff;
+    font-size: 48px;
+}    
+
+.abr{
+    color: #898691;  
+    font-size: 13px; 
+}
+
+.sliders{
+    display:flex;
+    flex-flow: row wrap;    
+    
+}
+.slider1{   
+    flex-basis: 1020px;
+    height: 515px;
+    
+    background: url(img/Buster-bulb.jpg) no-repeat; 
+    
+     
+           
+}
+
+.heading{
+    color: white;
+    font-family: 'Open Sans', bold;
+}
+h1{
+    font-size: 72px;    
+ }
+h2{
+    font-size: 48px;
+}
+h3{
+    font-size: 36px;
+}
+.slider1 .desc{
+    font-size: 36px;
+} 
+.slider2 .desc{
+    font-size: 24px;
+} 
+.slider6 .desc{
+    font-size: 20px;
+} 
+
+.desc{
+    color: white;
+    font-family: 'Roboto', sans-serif;}
+.slider1,
+.slider2,
+.slider6{
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: space-around;        
+    }
+
+.button{
+    border: 3px solid #ffe18f;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color:#ffffff;
+    font-family: 'Open Sans', bold;
+    max-width: 120px;
+   
+   
+    
+}
+
+/*
+  
+
+}
+.main-slider-heading h2{
+    font-size: 48px;
+  
+}
+.main-slider-desc-2{
+    font-size: 24px;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+}
+.slider-desc{
+    font-size: 36px;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+}
+*/
+.slider2{
+    height: 485px;    
+    background: url(img/peak.jpg) no-repeat;
+    flex-basis: 623px;
+
+}
+.slider3{
+    flex-basis: 378px;
+    height: 485px;
+    background-color:#eb7b61;
+    padding: 80px 50px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;    
+}
+.heading-form{
+    font-size: 48px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form-desc{    
+    font-size: 24px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;  
+   
+}
+.mail{
+    font-size: 20px;
+    font-family: 'Open Sans', bold;
+    text-decoration-color: #ffd9d1;
+    border: 3px solid #ffd9d1;
+    background-color: #eb7b61;
+    
+}
+.form-desc-bottom{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.slider4{
+    background: url(img/leica-M.jpg) no-repeat;
+    flex-basis: 260px;
+    height: 420px;
+    
+}
+.slider5{
+    background: url(img/Trobla.jpg) no-repeat;
+    flex-basis: 260px;
+    height: 420px;
+}
+.slider4,
+.slider5{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 36px auto;
+    align-items: center;
+}
+.slider4 .button{
+    color: #3d3c4a;
+    background-color: #ffe18f;
+}
+.slider5 .button{
+    color: #3d3c4a;
+    background-color: #ffe18f;
+}
+
+.slider6{
+    height: 420px;
+    background: url(img/leica-d-lux.jpg) no-repeat;
+    flex-basis: 460px;
+    }
+    .slider1,
+    .slider2,
+    .slider6{
+    padding: 36px;   
+    
+}
+.top-text{
+    text-transform: uppercase;
+    font-size: 14px;
+    color:#ffc7b0;
+}
+
+#footer{
+    display:flex;
+    height: 140px;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.footer-text{
+    font-size: 14px;
+    color: #898691;
+}
+.facebook{
+    padding-right: 20px;
+}

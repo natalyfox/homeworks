@@ -5,89 +5,95 @@
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header id="header">
-            <div class="wrapper">                 
-                <div class="header-menu">
-                   <a href="#"> menu </a>
-                 </div>  
-                 <div class="text-logo">
-                    <h1>DMT</h1><p>Design Meets Tech</p>
-                 </div>  
-                 <div class="header-search">
-                     <a href="#">search</a>                     
-                 </div>     
+<div class="wrapper">
+    <header id="header">                            
+        <div class="header-menu">
+        <a href="#" class="menu-link"> 
+            <div class="icon-burger">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
+    menu</a>
+        </div>  
+        <div class="text-logo">
+            <span class="dmt">DMT</span>
+            <span class="abr">Design Meets Tech</span>
+        </div>  
+        <div class="header-search">
+            <a href="#" class="search-link">search</a>                  
+                              
+        </div>     
+            
     </header>
     <main id="main">
-        <div class="wrapper">
-            <section class="main-slider">
-                <article class="main-slider-item1">
-                    <div class="main-slider-left-text">home</div>
-                        <h2 class="main-slider-heading">Buster<br>Bulb </h2>
-                            <div class="slider-desc">
-                            The first designer<br>
-                            LED bulb, finished<br>
-                            in gold glass.
-                            </div>                            
-                               <a href="" class="main-slider-button">Read more</a> 
+        <section class="sliders">
+            <article class="slider1">
+                <div class="top-text">home</div>
+                <h1 class="heading">Buster<br>Bulb</h1>
+                <div class="desc">
+                    The first designer<br>
+                    LED bulb, finished<br>
+                    in gold glass.
+                </div>                            
+                <a href="" class="button">Read more</a> 
+            </article>
+            <article class="slider2">
+                <div class="top-text">accessories</div>
+                <h2 class="heading">Peak</h2>
+                <div class="desc">
+                    A playful pouch<br>with a trick up its sleeve
+                </div>
+                <a href="#" class="button">Read more</a>                               
+            </article>
+            <article class="slider3">
+                <div class="heading-form">Good Things</div>
+                <div class="form-desc">
+                    ...<br>come to those who sign up<br>for our newsletter.
+                </div>
+                <form action="file.php" method="post" name="form" id="form">
+                    <p><input type="email" id="email" name="email" class="mail"
+                        autofocus placeholder="Your email"></p>
+                    <p><input type="submit" value="Subscribe"></p>
+                </form>                   
+                <div class="form-desc-bottom">
+                    We respect your privacy and we won't<br>share your information.
+                </div>
+            </article>
+                <article class="slider4">
+                    <div class="top-text">cameras</div>
+                    <h3 class="heading">Leica M</h3>
+                    <a href="#" class="button">Reviev</a>
                 </article>
-                <article class="main-slider-item2">
-                        <div class="main-slider-left-text">accessories</div>
-                            <h2 class="main-slider-heading">Peak</h2>
-                                <div class="main-slider-desc">
-                                A playful pouch<br>with a trick up
-                                its sleeve
-                                </div>
-                                    <a href="" class="main-slider-button">Read more</a>                               
+                <article class="slider5">
+                    <div class="top-text">sound</div>
+                    <h3 class="heading">Trobla<br>Amplifier</h3>
+                    <a href="#" class="button">Reviev</a>
                 </article>
-                <article class="main-slider-item3">
-                    <h3 class="heading-form">Good Things</h3>
-                    <div class="form-desc">
-                            ...<br>
-                            come to those who sign up<br>
-                            for our newsletter.
+                <article class="slider6">
+                    <div class="top-text">cameras</div>
+                    <h3 class="heading">Leica D-Lux</h3>
+                    <div class="desc">
+                        Limited-edition Diesel<br>collaboration
                     </div>
-                    <form action="file.php" method="post" name="form" id="form">
-                        <p><input type="email" id="email" name="email" 
-                            autofocus placeholder="Your email"></p>
-                        <p><input type="submit" value="Subscribe"></p>
-                    </form>                   
-                    <div class="form-desc-bottom">
-                            We respect your privacy and we won't<br>
-                            share your information.
-                    </div>
-                </article>
-                <article class="main-slider-item4">
-                        <div class="main-slider-center-text">cameras</div>
-                            <h2 class="main-slider-heading">Leica M</h2>
-                                <a href="" class="main-slider-button-review">Reviev</a>
-                </article>
-                <article class="main-slider-item5">
-                        <div class="main-slider-center-text">cound</div>
-                            <h2 class="main-slider-heading">Trobla<br>Amplifier</h2>
-                                <a href="" class="main-slider-button-review">Reviev</a>
-                </article>
-                <article class="main-slider-item6">
-                        <div class="main-slider-left-text">cameras</div>
-                            <h2 class="main-slider-heading">Leica D-Lux</h2>
-                                <div class="main-slider-desc">
-                                Limited-edition Diesel<br>collaboration
-                                </div>
-                                    <a href="" class="main-slider-button">Read more</a>
+                    <a href="#" class="button">Read more</a>
                 </article>
             </section>
-         </div>   
+           
 </main>
 <footer id="footer">
-    <div class="wrapper">
-        <div>copyright DMT</div>
+    
+        <div class="footer-text">Copyright DMT</div>
         <div class="networks">
-            <a href="#"><img src="img/facebook-i.png"></a>
+            <a href="#" class="facebook"><img src="img/facebook-i.png"></a>
             <a href="#"><img src="img/twitter-i.png"></a>
         </div>       
-    </div>
+   
 </footer>
+</div>
 </body>
 </html>

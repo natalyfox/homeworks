@@ -2,11 +2,14 @@
     position: relative;
     background: url('img/A-voobrazenie.jpg') no-repeat center fixed;
     background-size: 1300px auto;
+    width: 1200px;
+    height: 900px;
 }
 img{
     display:block;
+    max-width: 100%;
 }
-
+/*
 .angel{
     position: relative;
     float: right;
@@ -38,7 +41,6 @@ img{
     left: 38%;
     z-index: 3;
 }
-
 .vedma{
     
     position: fixed;
@@ -96,6 +98,11 @@ img{
     position: relative;
     left:20%;
     bottom: 110px;
+    
+
+}
+.minion5 img{
+    width:500px;
 }
 .minion2{
     position: relative;
@@ -108,3 +115,4 @@ img{
     bottom: -500px;
     left: 10px;
 }
+*/
