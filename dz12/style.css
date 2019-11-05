@@ -62,9 +62,10 @@ body{
 
 
 .header-search{
-    padding-right:32px;      
+    padding-right:15px;      
     background: url(img/search-i.png) no-repeat right center; 
     min-height: 22px;
+    flex-basis: 60px;
     
     }
 .text-logo{
@@ -83,12 +84,10 @@ body{
     color: #898691;  
     font-size: 13px; 
 }
-
 .sliders{
     display:flex;
-    flex-flow: row wrap;    
-    
-}
+    flex-flow: row wrap; }
+
 .slider1{   
     flex-basis: 1020px;
     height: 515px;
@@ -146,25 +145,7 @@ h3{
     
 }
 
-/*
-  
 
-}
-.main-slider-heading h2{
-    font-size: 48px;
-  
-}
-.main-slider-desc-2{
-    font-size: 24px;
-    color:white;
-    font-family: 'Roboto', sans-serif;
-}
-.slider-desc{
-    font-size: 36px;
-    color:white;
-    font-family: 'Roboto', sans-serif;
-}
-*/
 .slider2{
     height: 485px;    
     background: url(img/peak.jpg) no-repeat;
