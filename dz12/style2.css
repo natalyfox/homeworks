@@ -90,7 +90,8 @@ body{
 .sliders{ 
     display: flex; 
     flex-direction: row;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
+    
        
 }
 .slider1{
@@ -118,15 +119,15 @@ body{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;   
-    text-align: center;    
+    text-align: center;  
+    
     
 }
 .heading-form{
     font-size: 48px;
     color: white;
     font-family: 'Times New Roman', Times, serif;
-    
-    margin: 25px 60px;
+    margin: 80px 60px 0 60px;
 }
 .form-desc{    
     font-size: 24px;
@@ -140,8 +141,7 @@ body{
     color: #ffd9d1;
     border: 3px solid #ffd9d1;
     background-color: #eb7b61;
-    text-align: center;
-       
+    text-align: center;      
 }
 
 
@@ -149,6 +149,7 @@ body{
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     color: white;
+    margin-bottom: 80px;
 }
 .subscribe{ 
     border: 1px solid #66689c;
@@ -158,6 +159,7 @@ body{
     background-color:#66689c;
     font-family: 'Open Sans', sans-serif;;
     max-width: 285px;  
+    
 }
 .slider3 div{
     align-items: center;
@@ -174,12 +176,19 @@ body{
     flex-basis: 260px;
     height: 420px;  
     padding-right: 20px;
+    text-align: center; 
             }       
 .slider6{
     background: url(img/leica-d-lux.jpg) no-repeat;
     flex-basis: 460px; 
     height: 420px;  
+    display: flex;
+    flex-direction: column;
             }
+.desc{
+    margin-right: auto;
+    margin-bottom: 30px;
+}
 
 .slider4,
 .slider5{
@@ -195,8 +204,8 @@ body{
     text-transform: uppercase;
     font-size: 14px;
     color:#ffc7b0;
-    margin-top: 35px;
-    margin-left: 40px;
+    margin: 35px auto -25px 40px;
+    
     
 }
 .center-text{
@@ -204,6 +213,7 @@ body{
     font-size: 14px;
     color:#ffc7b0;
     font-family:'Open Sans', bold;
+    
 }
 .heading{
     color: white;
@@ -225,18 +235,22 @@ h3{
 }
 .slider1 .desc{
     font-size: 36px;
+    margin-bottom: 70px;
 } 
 .slider2 .desc{
     font-size: 24px;
+    margin-bottom:195px;
 } 
 .slider6 .desc{
     font-size: 20px;
+    margin-bottom:182px;
 } 
-
 .desc{
     color: white;
     font-family: 'Roboto', sans-serif;
     margin-left:40px;
+    margin-top: -25px;
+
 }
 
 /*Кнопки*/
@@ -279,3 +293,5 @@ h3{
 .facebook{
     padding-right: 20px;
 }
+
+
