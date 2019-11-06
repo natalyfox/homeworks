@@ -90,16 +90,14 @@ body{
 .sliders{ 
     display: flex; 
     flex-direction: row;
-    flex-wrap: wrap;
-    
-    
+    flex-wrap: wrap; 
+       
 }
 .slider1{
     flex-basis: 100%;
     height: 515px;
-    
     background: url(img/Buster-bulb.jpg) no-repeat;
-    
+    padding-bottom: 20px;
 }
 
 
@@ -107,23 +105,27 @@ body{
     background: url(img/peak.jpg) no-repeat;
     flex-basis: 620px;
     height: 485px; 
+    padding-right: 20px;
+    padding-bottom: 20px;  
     
 }
 /*Форма*/
 .slider3{
     background-color:#eb7b61;
-    background-color: 378px;
+    flex-basis: 380px;
     height: 485px; 
     display: inline-flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;       
+    align-items: center;   
+    text-align: center;    
     
 }
 .heading-form{
     font-size: 48px;
     color: white;
     font-family: 'Times New Roman', Times, serif;
+    
     margin: 25px 60px;
 }
 .form-desc{    
@@ -135,11 +137,14 @@ body{
 .mail{
     font-size: 20px;
     font-family: 'Open Sans', bold;
-    text-decoration-color: #ffd9d1;
+    color: #ffd9d1;
     border: 3px solid #ffd9d1;
     background-color: #eb7b61;
-    
+    text-align: center;
+       
 }
+
+
 .form-desc-bottom{
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
@@ -161,12 +166,14 @@ body{
     background: url(img/leica-M.jpg) no-repeat;
     flex-basis: 260px;
     height: 420px;
+    padding-right: 20px;
     
 }
 .slider5{
     background: url(img/Trobla.jpg) no-repeat;
     flex-basis: 260px;
     height: 420px;  
+    padding-right: 20px;
             }       
 .slider6{
     background: url(img/leica-d-lux.jpg) no-repeat;
