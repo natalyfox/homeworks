@@ -4,7 +4,8 @@
 .wrapper{
     max-width: 1020px;
     margin: 0 auto;   
-    padding:0;     
+    padding:0;   
+     
 }
 
 img{
@@ -111,13 +112,16 @@ body{
     box-sizing: content-box;
     margin-bottom: 20px;
     margin-right: 20px;
+    
+    
 }
 .brown{
     
     align-self: flex-start;
     position: absolute;
     top:0;
-    right: 0;    
+    right: 0;   
+    
 }     
 
 /*Форма*/
@@ -161,6 +165,7 @@ body{
     color: white;
     margin-bottom: 80px;
 }
+
 .subscribe{ 
     border: 1px solid #66689c;
     padding: 12px 95px;    
@@ -207,6 +212,7 @@ body{
 .desc{
     margin-right: auto;
     margin-bottom: 30px;
+    
 }
 
 .slider4,
