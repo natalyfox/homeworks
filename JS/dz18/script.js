@@ -10,6 +10,20 @@ if(a === '1'){
     console.log('Неверно');
 }
 
+/*let a = 1;
+if(a === '1'){
+    console.log('Верно');
+}else{
+    console.log('Неверно');
+}*/
+
+/*let a = 3;
+if(a === '1'){
+    console.log('Верно');
+}else{
+    console.log('Неверно');
+}*/
+
 /*
 2.Если переменная item не равна true, то выведите 'Верно', 
 иначе выведите 'Неверно';.
@@ -18,23 +32,24 @@ if(a === '1'){
 скрипта - с короткой записью и с длинной.
 */
 
-let item;
-item != true;
+let item = true;
 if(item != true){
     console.log('Верно');
-}else if(item = false){
-    console.log('Верно');
 }else{
     console.log('Неверно');
 }
 
-
-
-if((item !== true) || (item = false)){
+/* let item = false;
+if(item != true){
     console.log('Верно');
 }else{
-    console.log('Неверно');
-}
+    console.log('Верно');
+}*/
+
+
+let result = (item != true) ? console.log('Верно') : console.log('Неверно');
+
+
 
 /*
 3. Если переменная a1 больше нуля и меньше 4-ти, то выведите 'Верно',
@@ -93,16 +108,14 @@ if((k >= 3 && k < 12) || (n >= 7 && n < 15)){
 
 let month = prompt('Введите месяц года в числовом формате', ' ');
 
-if((month >= 1) && (month <= 2)){
-    console.log('Зима');
-}else if(month == 12){
+if(month >= 1 && month <= 2 || month === 12 ){
     console.log('Зима');
 }
-else if((month >= 3) && (month <= 5)){
+else if(month >= 3 && month <= 5){
     console.log('Весна');
-}else if((month >=6 ) && (month <= 8)){
+}else if(month >=6 && month <= 8){
     console.log('Лето');
-}else if((month >= 9) && (month <= 11)){
+}else if(month >= 9 && month <= 11){
     console.log('Осень');
 }else{
     console.log('Такого месяца не существует!!!')
