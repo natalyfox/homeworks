@@ -1,0 +1,24 @@
+*{margin:0;}
+body{
+    display:grid;
+}
+.grid{
+    max-width: 1020px;
+   
+}
+header{
+    background-color:red;
+}
+main{
+    display: inline-grid;
+}
+div{
+    background-color: darkblue;
+    max-width: 100%;
+}
+footer{
+    background-color: red;
+}
+.line{
+    max-width: 70%;
+}

@@ -1,7 +1,10 @@
 /* 1. Напишите выражение, которое посчитает и выведет в 
 консоль сколько секунд в 3 часах.*/
-
-console.log(3*60*60);
+let hours = 3;
+let minutes = 60;
+let seconds = 60;
+let seconds3Hours = hours*minutes*seconds;
+console.log(seconds3Hours);
 
 /*
 2. Переделайте операторы в краткую форму записи для данных выражений: 
@@ -43,9 +46,9 @@ console.log(a+b+c);
 
 let a1 = 17;
 let b1 = 10;
-let c1;
+let c1 = a1-b1;
 let d = 7;
-let result = (c1 = (a1 - b1)) + d;
+let result = c1 + d;
 console.log(result);
 
 /*
