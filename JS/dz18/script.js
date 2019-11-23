@@ -108,7 +108,7 @@ if((k >= 3 && k < 12) || (n >= 7 && n < 15)){
 
 let month = prompt('Введите месяц года в числовом формате', ' ');
 
-if(month >= 1 && month <= 2 || month === 12 ){
+if(month >= 1 && month <= 2 || month == 12 ){
     console.log('Зима');
 }
 else if(month >= 3 && month <= 5){
