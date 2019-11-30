@@ -64,10 +64,8 @@ body{
     padding-right: 12px;   
     
 }
-.abr{
-    
-    display: flex;
-    justify-content: center;    
+.abr{    
+   
     color: #898691;  
     font-size: 13px;
     font-weight: normal;
@@ -84,15 +82,15 @@ body{
     
     }
 .text-logo{
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
+    justify-content: space-around;
      
     
    
 }
 .dmt{
-    display: flex;
-    justify-content: center;
+   
     color:#ffffff;
     font-size: 48px;
     letter-spacing: 6px;
@@ -131,7 +129,7 @@ body{
     width: 620px;
     height: 485px;   
     margin-right: auto;
-    margin-bottom: 20px;          
+    margin-bottom: auto;          
      
 }
    
@@ -187,6 +185,7 @@ body{
     background-color: #eb7b61;
     text-align: center;    
     margin-bottom: 18px;  
+    
 }
 
 
@@ -210,6 +209,8 @@ body{
 }
 input{
     max-width:285px; 
+    size: 285px;
+    
 }
 
 
