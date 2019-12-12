@@ -1,0 +1,192 @@
+
+@media (max-width: 1024px){
+   .wrapper{
+       
+        max-width: 1024px;
+       
+        
+        
+    }
+    .main-banner {
+        max-width: 1024px;
+        height: 500px; 
+        padding-left: 30px;
+        padding-right: 70px;    
+        background-size: cover;          
+
+    }
+
+    .logo{
+        margin-top:10px;
+    }
+    .menu{
+        padding-top:20px;
+    }
+    .header{        
+        height: 450px;    
+    }
+    .about{
+        max-width: 1024px;
+        height: 450px;
+    }
+    .block-photo-pets{
+        height: 650px;        
+    }
+    .first{
+        margin-right: 25px;
+    }
+    
+    .second{
+        margin-left: 25px;
+    }  
+    .foto{
+        margin: auto 10px;
+    }
+    .symvol a{
+        height: 40px;
+        width: 40px;
+    }
+
+    .help .wrapper{
+        height: 500px; 
+    }
+    
+    .first-line{
+        padding-bottom: 45px; 
+    }
+    .pet-items img{
+        height: 50px;
+    }
+    
+    .footer{
+        max-width: 1024px;
+        
+    }
+    .photo-pets{
+        max-width:1024px;
+    }
+    .help{
+        max-width:1024px;
+    }
+    .donation{max-width: 1024px;}
+}
+
+@media (max-width: 768px){
+    
+ 
+    .main-banner {
+        max-width: 768px;
+        height: 400px; 
+        padding-left: 10px;
+        background:768px 400px no-repeat center; 
+        background-size: cover;           
+
+    }
+    .header{
+        max-width: 300px;
+    }
+    .main-text{
+        max-width: 300px;
+        padding-bottom: 20px;
+    }
+    .logo{
+        margin-top:10px;
+        margin-bottom: 30px ;
+    }
+    .menu{
+        padding-top:20px;
+    }
+    .header{        
+        height: 350px;    
+    }
+    .main-slider-header{
+        font-size: 30px;
+    }
+    ..main-slider{
+        height: 250px;
+       
+    }
+    .menu{
+        width: 450px;
+       
+    }
+    .about{
+            
+            height: 400px;
+           
+            
+        }
+        
+    .pets{
+            align-items: center;
+            width: 260px;
+            height: 398px;
+            margin-right: 50px;
+            margin-left: 20px;
+            margin-bottom: 0;
+
+        }
+        
+    .pets img{
+            height: 350px;
+            width: 257px;
+        }
+    .text{
+            justify-content: space-evenly;
+            height: 380px;
+            
+        }
+        
+    .about-header{
+           
+            font-size: 30px;
+             
+            
+              
+        }
+       
+        
+    .photo-pets-header{
+        font-size: 30px;
+        height: 35px;
+        }
+
+    .foto img{
+            width: 198px;
+            height: 198px;
+        }
+    .foto{
+        min-width: 200px;
+        height: 350px;
+        padding-bottom: 10px;
+        margin: auto 10px;
+    }
+
+    .first{
+        margin-right: 10px;
+    }
+    
+    .second{
+        margin-left: 10px;
+    } 
+    .help .wrapper{
+        max-width: 768px;
+        height: 400px;
+        justify-content: space-evenly;
+    }
+    .first-line,
+    .second-line {
+        display: flex;
+        max-width: 750px;
+    }
+
+    .first-line{
+        padding-bottom: 25px;
+    }
+    .pet-items img{
+        height: 55px;
+    }
+    .pet-items{
+        margin-bottom: 40px;
+    }
+}   
